@@ -48,7 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassWithEvent.cs" />
+    <Compile Include="ClassWithGenericEvent.cs" />
+    <Compile Include="EventArgs.cs" />
     <Compile Include="EventArgsUnitTests.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PersonEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
